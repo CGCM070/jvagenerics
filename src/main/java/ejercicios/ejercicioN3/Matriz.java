@@ -24,7 +24,17 @@ public class Matriz<T> {
         System.out.println("Número de columnas: " + matriz.columnas());
     }
 
-
+/**
+ *Escribe una clase Matriz genérica con los siguientes métodos:
+ *
+ * constructor que recibe por parámetro el número de filas y columnas de la matriz.
+ * set() recibe por parámetro la fila, la columna y el elemento a insertar. El elemento es de tipo genérico.
+ * Este método inserta el elemento en la posición indicada.
+ * get() recibe por parámetro la fila y la columna. Devuelve el elemento en esa posición. El elemento devuelto es genérico.
+ * columnas() devuelve el número de columnas de la matriz.
+ * filas() devuelve el número de filas de las matriz.
+ * toString() devuelve en forma de String la información de la matriz.
+ */
 
 
     private T[][] elementos;
