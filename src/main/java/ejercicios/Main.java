@@ -1,4 +1,4 @@
 package ejercicios;
 
-public class main {
+public class Main {
 }

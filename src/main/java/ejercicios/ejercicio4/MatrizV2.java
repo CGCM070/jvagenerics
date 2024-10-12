@@ -1,6 +1,6 @@
-package ejercicios.ejercicion4;
+package ejercicios.ejercicio4;
 
-import ejercicios.ejercicioN3.Matriz;
+import ejercicios.ejercicio3.Matriz;
 
 
 /**
