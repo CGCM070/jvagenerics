@@ -39,6 +39,7 @@ public class Matriz<T> {
         this.elementos = (T[][]) new Object[filas][columnas];
     }
 
+    //Pos especifica
     public void set(int fila, int columna, T elemento) {
         if (fila >= 0 && fila < filas && columna >= 0 && columna < columnas) {
             elementos[fila][columna] = elemento;
@@ -46,7 +47,7 @@ public class Matriz<T> {
             System.out.println("Indice fuera de los limites d la matriz");
         }
     }
-
+    //Pos especifica
     public T get(int fila, int columna) {
         if (fila >= 0 && fila < filas && columna >= 0 && columna < columnas) {
             return elementos[fila][columna];
