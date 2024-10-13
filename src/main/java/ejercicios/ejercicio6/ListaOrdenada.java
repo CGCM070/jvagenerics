@@ -27,7 +27,7 @@ public class ListaOrdenada<E extends Comparable<E>> {
 
     public void add(E o) {
         int i = 0;
-        while (i < elementos.size() && elementos.get(i).compareTo(o) < 0) {
+        while (i < elementos.size() &&  0 > elementos.get(i).compareTo(o)) {
             i++;
         }
         elementos.add(i, o);
